@@ -1,0 +1,131 @@
+
+/* All of the fonts will be initialized here*/
+@font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/Inter/static/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Inter-medium";
+    src: url("../assets/fonts/Inter/static/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../assets/fonts/Inter/static/Inter-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("../assets/fonts/Inter/static/Inter-SemiBold.ttf");
+}
+
+
+/* Decorations start here */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    
+    background-color: rgb(235, 239, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../assets/img/Rectangle3.png");
+    background-repeat: no-repeat;
+
+    background-position: left bottom;
+    
+    
+}
+
+
+.computer-background {
+    align-items: flex-end;
+}
+
+.login-forms {
+    
+    text-align: center;
+    margin-left: 5rem;
+}
+.login-forms h1 {
+    font-family: "Inter";
+    font-size: 22;
+    color: black;
+}
+
+
+
+.forms  {
+    text-align: left;
+    margin-top: 2rem;
+    
+}
+
+.forms p {
+    font-family: "Inter-Regular";
+    font-size: 16;
+    color: black;
+    margin-top: 1rem;
+    
+}
+
+form a {
+    text-decoration: none;
+}
+
+
+
+.forms input {
+    width: 367px;
+    height: 34px;
+    border: 1px rgb(101, 110, 211, 1) solid;
+    background-color: rgb(235, 239, 255, 1);
+    border-radius: 50px;
+    margin-top: 1rem;
+
+}
+
+
+.left-rectangle {
+    width: 438px;
+    height: 100vh;
+    background-color: rgb(175, 179, 255, 1);
+    overflow: initial;
+}
+
+
+
+
+
+.submit-button {
+    margin-top: 3rem;
+    width: 365px;
+    height: 34px;
+    background-color: rgb(101, 110, 211, 1);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-family: "Inter-Medium";
+    font-size: 16px;
+
+}
+
+.register {
+    
+    text-decoration: none;
+    font-family: "Inter-Regular";
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+
+}
+
+.register span {
+    font-weight: 500;
+    font-size: 16;
+}
